@@ -1,0 +1,10 @@
+{
+    "extends": "eslint-config-smarthead-react",
+    "rules": {
+        "indent": ["error", 4],
+        "linebreak-style": 0,
+        "comma-dangle": [2, "never"],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/jsx-indent": ["error", 4]
+    }
+}

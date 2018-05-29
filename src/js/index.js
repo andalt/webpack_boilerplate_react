@@ -18,12 +18,7 @@ const history = createHistory();
 const composeEnhancer = compose;
 const store = createStore(
     connectRouter(history)(AppReducers),
-    composeEnhancer(
-        applyMiddleware(
-            (thunk),
-            routerMiddleware(history)
-        )
-    )
+    composeEnhancer(applyMiddleware((thunk), routerMiddleware(history)))
 );
 
 const renderRoot = () => render(

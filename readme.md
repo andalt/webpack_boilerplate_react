@@ -2,7 +2,7 @@
 
 Build template on webpack for React
 
-# Main tools
+## Main tools
 
 Webpack, React, Redux, React-Router, Redux-Thunk, History, Prop-types, Hot Module Replacement, Babel, Scss, Pug, DevServer, autoPreFixer
 
